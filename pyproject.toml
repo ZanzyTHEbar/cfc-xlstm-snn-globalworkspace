@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cfc-xlstm-snn-globalworkspace"
+version = "0.1.0"
+description = ""
+authors = ["ZanzyTHEbar <pyr0ndet0s97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.4.1"
+numpy = "^2.1.1"
+matplotlib = "^3.9.2"
+pandas = "^2.2.2"
+yfinance = "^0.2.43"
+torchdiffeq = "^0.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
